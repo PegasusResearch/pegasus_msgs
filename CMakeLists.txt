@@ -60,50 +60,50 @@ install(DIRECTORY include/${PROJECT_NAME}
 rosidl_generate_interfaces(${PROJECT_NAME}
   
   # Driver Services
-  "srv/driver/KillSwitch.srv"
-  "srv/driver/Arm.srv"
-  "srv/driver/Land.srv"
-  "srv/driver/Offboard.srv"
-  "srv/driver/PositionHold.srv"
-  "srv/driver/Waypoint.srv"
-  "srv/driver/Takeoff.srv"
+  "srv/KillSwitch.srv"
+  "srv/Arm.srv"
+  "srv/Land.srv"
+  "srv/Offboard.srv"
+  "srv/PositionHold.srv"
+  "srv/Waypoint.srv"
+  "srv/Takeoff.srv"
 
   # Autopilot services
-  "srv/autopilot/SetMode.srv"
+  "srv/SetMode.srv"
   
   # Paths services/messages
-  "srv/trajectories/Speed.msg"
-  "srv/trajectories/AddArc.srv"
-  "srv/trajectories/AddLine.srv"
-  "srv/trajectories/AddCircle.srv"
-  "srv/trajectories/AddCsv.srv"
-  "srv/trajectories/AddLemniscate.srv"
-  "srv/trajectories/ResetPath.srv"
+  "msg/Speed.msg"
+  "srv/AddArc.srv"
+  "srv/AddLine.srv"
+  "srv/AddCircle.srv"
+  "srv/AddCsv.srv"
+  "srv/AddLemniscate.srv"
+  "srv/ResetPath.srv"
   
   # Controllers services/messages
-  "srv/controllers/StartMission.srv"
-  "srv/controllers/LandMission.srv"
+  "srv/StartMission.srv"
+  "srv/LandMission.srv"
 
   # Messages
-  "msg/autopilot/AutopilotStatus.msg"
-  "msg/driver/Battery.msg"
-  "msg/driver/ControlAttitude.msg"
-  "msg/driver/ControlPosition.msg"
-  "msg/driver/Health.msg"
-  "msg/driver/RcStatus.msg"
-  "msg/driver/RPY.msg"
-  "msg/driver/SensorBarometer.msg"
-  "msg/driver/SensorGps.msg"
-  "msg/driver/SensorGpsInfo.msg"
-  "msg/driver/Status.msg"
-  "msg/driver/ThrustCurve.msg"
-  "msg/driver/VehicleConstants.msg"
+  "msg/AutopilotStatus.msg"
+  "msg/Battery.msg"
+  "msg/ControlAttitude.msg"
+  "msg/ControlPosition.msg"
+  "msg/Health.msg"
+  "msg/RcStatus.msg"
+  "msg/RPY.msg"
+  "msg/SensorBarometer.msg"
+  "msg/SensorGps.msg"
+  "msg/SensorGpsInfo.msg"
+  "msg/Status.msg"
+  "msg/ThrustCurve.msg"
+  "msg/VehicleConstants.msg"
   
   # High level control
-  "msg/paths/Path.msg"
-  "msg/pid/PidStatistic.msg"
-  "msg/pid/PidStatistics.msg"
-  "msg/mellinger/MellingerStatistics.msg"
+  "msg/Path.msg"
+  "msg/PidStatistic.msg"
+  "msg/PidStatistics.msg"
+  "msg/MellingerStatistics.msg"
   
   # Depedencies for generating the messages, services and actions
   DEPENDENCIES 
