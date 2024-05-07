@@ -6,4 +6,4 @@ ROS2 message and service definitions for the Pegasus project.
     - Marcelo Jacinto (marcelo.jacinto@tecnico.ulisboa.pt)
 
 ## License
-Pegasus_msgs is released under [BSD-3 License](LICENSE).
+Pegasus_msgs is released under [Non-Commercial & Non-Military BSD4 License](LICENSE).
