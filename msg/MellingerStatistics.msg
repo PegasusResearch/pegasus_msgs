@@ -8,3 +8,7 @@ float64[3] desired_angular_rate
 float64 thrust_reference
 # Attitude rate asked to the system (in deg/s)
 float64[3] attitude_rate_reference
+# Current attitude of the drone (in deg)
+float64 state_roll
+float64 state_pitch
+float64 state_yaw
