@@ -12,3 +12,7 @@ float64[3] attitude_rate_reference
 float64 state_roll
 float64 state_pitch
 float64 state_yaw
+# Desired attitude of the drone (in deg)
+float64 desired_roll
+float64 desired_pitch
+float64 desired_yaw
