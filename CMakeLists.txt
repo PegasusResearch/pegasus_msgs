@@ -80,6 +80,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/PositionHold.srv"
   "srv/Waypoint.srv"
   "srv/Takeoff.srv"
+  "srv/SetHomePosition.srv"
 
   # Autopilot services
   "srv/SetMode.srv"
@@ -111,6 +112,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Status.msg"
   "msg/ThrustCurve.msg"
   "msg/VehicleConstants.msg"
+  "msg/Consensus.msg"
   
   # High level control
   "msg/Path.msg"
