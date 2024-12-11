@@ -105,6 +105,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ControlPosition.msg"
   "msg/ControlVelocity.msg"
   "msg/ControlAcceleration.msg"
+  "msg/ControlMotors.msg"
   "msg/Health.msg"
   "msg/RcStatus.msg"
   "msg/RPY.msg"
