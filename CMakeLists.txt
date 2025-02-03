@@ -112,6 +112,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SensorBarometer.msg"
   "msg/SensorGps.msg"
   "msg/SensorGpsInfo.msg"
+  "msg/SensorAltimeter.msg"
   "msg/Status.msg"
   "msg/ThrustCurve.msg"
   "msg/VehicleConstants.msg"
