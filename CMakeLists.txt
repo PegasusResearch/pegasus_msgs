@@ -93,6 +93,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddCsv.srv"
   "srv/AddLemniscate.srv"
   "srv/ResetPath.srv"
+  "srv/ControlMotors.srv"
   
   # Controllers services/messages
   "srv/StartMission.srv"
