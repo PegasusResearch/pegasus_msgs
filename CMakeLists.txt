@@ -98,6 +98,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   # Controllers services/messages
   "srv/StartMission.srv"
   "srv/LandMission.srv"
+	
+  # Bag services
+  "srv/TriggerBag.srv"
 
   # Messages
   "msg/AutopilotStatus.msg"
