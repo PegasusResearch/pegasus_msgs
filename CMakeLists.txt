@@ -76,6 +76,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/KillSwitch.srv"
   "srv/Arm.srv"
   "srv/Land.srv"
+  "srv/Reboot.srv"
   "srv/Offboard.srv"
   "srv/PositionHold.srv"
   "srv/GetMavlinkParam.srv"
